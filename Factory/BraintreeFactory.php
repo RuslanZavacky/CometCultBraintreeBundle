@@ -3,7 +3,7 @@
 namespace CometCult\BraintreeBundle\Factory;
 
 use CometCult\BraintreeBundle\Exception\InvalidServiceException;
-use Braintree_Configuration;
+use Braintree\Configuration as Braintree_Configuration;
 
 /**
  * Factory for creating Braintree services
